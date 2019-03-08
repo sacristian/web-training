@@ -1,6 +1,10 @@
 body{
-	background-color: rgba(51, 51, 51, 0.25);
+	background-image: linear-gradient(to bottom, rgba(170, 220, 211, 1), rgba(51, 51, 51, 0.2));
 	font-family: Montserrat;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 nav{
@@ -52,6 +56,45 @@ a:hover{
 
 	display: block;
 	background-color: rgba(83, 200, 206, 0.5);
+
+}
+
+form{
+	max-width: 500px;
+	background: rgba(0,0,0,0);
+	padding: 30px;
+	margin: 50px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 5px solid gray;
+	text-align: center;
+}
+
+legend{
+	margin-left: 40%;
+}
+
+input[type="button"]:hover, 
+input[type="submit"]:hover {
+	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+	background-color: #28739E;
+
+}
+
+input[type="button"], 
+input[type="submit"] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	box-shadow: inset 0px 1px 0px 0px #3985B1;
+	background-color: #216288;
+	border: 1px solid #17445E;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;
+	font: 13px Arial, Helvetica, sans-serif;
+	margin-top:5px;
 
 }
 

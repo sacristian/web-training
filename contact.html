@@ -22,10 +22,17 @@
 </nav>
 <br>
 
-<center>
+
 <form id="get-in-contact" action="http://localhost:3000/#contents" method="get" name="contact-form" target="_self">
 
-  <legend>Get in touch:</legend><br>
+  <legend><b>Get in touch:</b></legend><br>
+  <label for="name">name: </label>
+  <input type="text" name="name" required><br><br>
+  <label for="email">email: </label>
+  <input type="email" name="email" required><br><br>
+  <label for="subject">subject: </label>
+  <input type="text" name="subject" required><br><br>
+  <label for="comment">comment: </label>
 
   <input type="radio" name="gender" value="male"> Male
   <input type="radio" name="gender" value="female"> Female
@@ -43,13 +50,7 @@
   <input type="checkbox" name="weight" value="Weight">over 80 kg<br><br>
   <label for="date">date:</label>
   <input type="date" value="2019-01-01" min="2019-01-01" max="2019-12-31"><br><br>
-  <label for="name">name: </label>
-  <input type="text" name="name" required><br><br>
-  <label for="email">email: </label>
-  <input type="email" name="email" required><br><br>
-  <label for="subject">subject: </label>
-  <input type="text" name="subject" required><br><br>
-  <label for="comment">comment: </label>
+
   <textarea rows="5" cols="50" name="comment" required dirname="comment.dir" placeholder="Add comment here..."></textarea>
   <br>
   <input type="submit" value="send">
@@ -57,7 +58,7 @@
 </form>
 <br>
 
-</center>
+
 
 <br>
 <br>
